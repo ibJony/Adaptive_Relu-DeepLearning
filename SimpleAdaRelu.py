@@ -9,6 +9,6 @@ class AdaptiveRelu(nn.Module):
 		super(AdaptiveRelu, self).__init__()
 		self.thr = nn.Parameter(torch.tensor(0.0))
 	def forward(self, x):
-		x = nn.ReLU()(x - self.thr)
+		x = nn.ReLU()(x - self.thr) + self.thr
 # 		print(self.thr)
 		return x
