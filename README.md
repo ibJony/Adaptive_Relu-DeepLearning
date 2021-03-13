@@ -6,4 +6,4 @@ project, we study adaptive Relu (AdaReLU) that parameterizes the activation thre
 combined with parameter-sharing schemes and a partial replacement strategy to construct an adaptive convolutional ReLU (ConvReLU) block. ConvReLU is
 claimed to solve the dying ReLU problem and consistently perform better than ReLU, LeakyReLU, and PReLU. However, the experiments and analysis conducted
 in the paper are not convincing enough to show that the current ConvReLU model is better than LeakyReLU and PReLU that have already been proven useful.
-In this project, we will implement the proposed methods, provide more detailed analysis, and also experiment on different implementations.
+In this project, we implemented an adaptive convolutional ReLU (ConvReLU) and experimented it's performace compared to ReLU, LeakyReLU and PReLU. Finally, we proposed an abstract paper providing a detailed account of our research.
